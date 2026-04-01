@@ -18,7 +18,7 @@ export const surfaceCard =
 export const primaryButton =
   'inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#6f3df4] to-[#9c16f7] px-5 py-3 text-sm font-semibold text-white shadow-[0_10px_30px_rgba(122,56,245,0.18)] transition hover:translate-y-[-1px] sm:px-6';
 
-// বর্ডার যুক্ত সেকেন্ডারি বাটন
+
 export const secondaryButton =
   'inline-flex items-center justify-center rounded-full border border-white/70 px-5 py-3 text-sm font-semibold text-white transition hover:translate-y-[-1px] sm:px-6';
 
