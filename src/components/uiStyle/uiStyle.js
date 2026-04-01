@@ -26,7 +26,7 @@ export const secondaryButton =
 export const pillToggleWrap =
   'inline-flex flex-wrap justify-center rounded-full border border-[#ece8f7] bg-white p-1 shadow-sm';
 
-// একটিভ এবং ইন-এক্টিভ টগল বাটনের লজিক্যাল স্টাইল
+
 export const toggleButton = (isActive) =>
   `rounded-full px-4 py-3 text-sm font-semibold transition sm:px-6 ${
     isActive
