@@ -22,7 +22,7 @@ export const primaryButton =
 export const secondaryButton =
   'inline-flex items-center justify-center rounded-full border border-white/70 px-5 py-3 text-sm font-semibold text-white transition hover:translate-y-[-1px] sm:px-6';
 
-// টগল বাটন (Product/Cart) এর বাইরের কন্টেইনার
+
 export const pillToggleWrap =
   'inline-flex flex-wrap justify-center rounded-full border border-[#ece8f7] bg-white p-1 shadow-sm';
 
