@@ -4,7 +4,7 @@ export const sectionWidth = 'mx-auto w-[min(1120px,calc(100%-1.5rem))]';
 
 export const sectionHeadingWrap = 'mx-auto text-center';
 
-// মেইন টাইটেল বা বড় হেডলাইনের স্টাইল
+
 export const sectionTitle =
   'text-[2rem] font-extrabold tracking-[-0.05em] text-[#1d2438] sm:text-[2.4rem] md:text-[3.2rem] lg:text-[4rem]';
 
