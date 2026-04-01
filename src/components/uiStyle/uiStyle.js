@@ -11,7 +11,6 @@ export const sectionTitle =
 
 export const sectionCopy = 'mt-4 text-sm leading-7 text-[#8b95a9] sm:text-base';
 
-// কার্ডের বডি বা কন্টেইনার স্টাইল
 export const surfaceCard =
   'rounded-[1.25rem] border border-[#ece8f7] bg-white shadow-[0_10px_24px_rgba(28,30,53,0.04)]';
 
