@@ -2,7 +2,6 @@
 
 export const sectionWidth = 'mx-auto w-[min(1120px,calc(100%-1.5rem))]';
 
-// সেকশন হেডিং এর জন্য রেপার
 export const sectionHeadingWrap = 'mx-auto text-center';
 
 // মেইন টাইটেল বা বড় হেডলাইনের স্টাইল
