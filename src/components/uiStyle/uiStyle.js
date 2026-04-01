@@ -14,7 +14,7 @@ export const sectionCopy = 'mt-4 text-sm leading-7 text-[#8b95a9] sm:text-base';
 export const surfaceCard =
   'rounded-[1.25rem] border border-[#ece8f7] bg-white shadow-[0_10px_24px_rgba(28,30,53,0.04)]';
 
-// গ্রাডিয়েন্ট যুক্ত মেইন বাটন
+
 export const primaryButton =
   'inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#6f3df4] to-[#9c16f7] px-5 py-3 text-sm font-semibold text-white shadow-[0_10px_30px_rgba(122,56,245,0.18)] transition hover:translate-y-[-1px] sm:px-6';
 
