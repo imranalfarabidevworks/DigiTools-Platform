@@ -8,7 +8,7 @@ export const sectionHeadingWrap = 'mx-auto text-center';
 export const sectionTitle =
   'text-[2rem] font-extrabold tracking-[-0.05em] text-[#1d2438] sm:text-[2.4rem] md:text-[3.2rem] lg:text-[4rem]';
 
-// সাব-টাইটেল বা বর্ণনামূলক টেক্সট
+
 export const sectionCopy = 'mt-4 text-sm leading-7 text-[#8b95a9] sm:text-base';
 
 // কার্ডের বডি বা কন্টেইনার স্টাইল
