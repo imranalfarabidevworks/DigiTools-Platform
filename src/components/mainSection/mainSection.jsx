@@ -1,5 +1,5 @@
 import { FiCheck, FiShoppingCart } from 'react-icons/fi';
-// ফাইলের নাম অনুযায়ী ইমপোর্ট পাথ ঠিক করা হয়েছে
+
 import {
   pillToggleWrap,
   primaryButton,
