@@ -1,0 +1,122 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "AI Writing Pro",
+      "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+      "price": 29,
+      "period": "monthly",
+      "tag": "Best Seller",
+      "tagType": "best-seller",
+      "rating": "4.9",
+      "icon": "writingImage",
+      "features": ["Unlimited AI generations", "50+ writing templates", "Grammar checker"]
+    },
+    {
+      "id": 2,
+      "name": "Design Templates Pack",
+      "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+      "price": 49,
+      "period": "one-time",
+      "tag": "Popular",
+      "tagType": "popular",
+      "rating": "4.8",
+      "icon": "designToolImage",
+      "features": ["2000+ templates", "Commercial license", "Editable formats"]
+    },
+    {
+      "id": 3,
+      "name": "Premium Stock Assets",
+      "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+      "price": 19,
+      "period": "monthly",
+      "tag": "New",
+      "tagType": "new",
+      "rating": "4.7",
+      "icon": "shoppingCartImage",
+      "features": ["10M+ assets", "Commercial use", "No attribution"]
+    },
+    {
+      "id": 4,
+      "name": "Automation Toolkit",
+      "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+      "price": 79,
+      "period": "monthly",
+      "tag": "Popular",
+      "tagType": "popular",
+      "rating": "4.9",
+      "icon": "operationImage",
+      "features": ["50+ automations", "API access", "Custom workflows"]
+    },
+    {
+      "id": 5,
+      "name": "Resume Builder Pro",
+      "description": "Create professional resumes and cover letters that land interviews.",
+      "price": 15,
+      "period": "one-time",
+      "tag": "New",
+      "tagType": "new",
+      "rating": "4.8",
+      "icon": "portfolioImage",
+      "features": ["100+ templates", "ATS optimization", "Export to PDF"]
+    },
+    {
+      "id": 6,
+      "name": "Social Media Content Kit",
+      "description": "Complete toolkit for creating engaging social media content across all platforms.",
+      "price": 39,
+      "period": "monthly",
+      "tag": "Best Seller",
+      "tagType": "best-seller",
+      "rating": "4.9",
+      "icon": "socialMediaImage",
+      "features": ["5000+ assets", "Scheduler included", "Analytics dashboard"]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Create Account",
+      "text": "Sign up for free in seconds. No credit card required to get started.",
+      "icon": "userImage"
+    },
+    {
+      "title": "Choose Products",
+      "text": "Browse our catalog and select the tools that fit your needs.",
+      "icon": "packageImage"
+    },
+    {
+      "title": "Start Creating",
+      "text": "Download and start using your premium tools immediately.",
+      "icon": "rocketImage"
+    }
+  ],
+  "pricingPlans": [
+    {
+      "name": "Starter",
+      "price": "$0",
+      "period": "/Month",
+      "subtitle": "Perfect for getting started",
+      "features": ["Access to 10 free tools", "Basic templates", "Community support", "1 project per month"],
+      "cta": "Get Started Free",
+      "featured": false
+    },
+    {
+      "name": "Pro",
+      "price": "$29",
+      "period": "/Month",
+      "subtitle": "Best for professionals",
+      "features": ["Access to all premium tools", "Unlimited templates", "Priority support", "Unlimited projects", "Cloud sync", "Advanced analytics"],
+      "cta": "Start Pro Trial",
+      "featured": true
+    },
+    {
+      "name": "Enterprise",
+      "price": "$99",
+      "period": "/Month",
+      "subtitle": "For teams and businesses",
+      "features": ["Everything in Pro", "Team collaboration", "Custom integrations", "Dedicated support", "SLA guarantee", "Custom branding"],
+      "cta": "Contact Sales",
+      "featured": false
+    }
+  ]
+}

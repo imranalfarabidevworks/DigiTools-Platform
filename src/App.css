@@ -1,0 +1,55 @@
+.card,
+.btn,
+.badge,
+.stat,
+a,
+button {
+  transition: all 180ms ease;
+}
+
+.animated-border-shell {
+  position: relative;
+  border-radius: 1.25rem;
+  padding: 1px;
+  overflow: hidden;
+}
+
+.animated-border-shell::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    #6f3df4 0deg,
+    #7c3aed 70deg,
+    #3b82f6 140deg,
+    #60a5fa 210deg,
+    #9c16f7 290deg,
+    #6f3df4 360deg
+  );
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.animated-border-shell:hover::before,
+.animated-border-shell:active::before {
+  opacity: 1;
+  animation: border-spin 2.2s linear infinite;
+}
+
+.animated-border-inner {
+  position: relative;
+  z-index: 1;
+  border-radius: calc(1.25rem - 1px);
+}
+
+@keyframes border-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
